@@ -21,6 +21,7 @@ import {
   SalesChart,
   DevicesChart,
   ProductList,
+  Story,
   OrdersTable
 } from './components';
 
@@ -41,7 +42,10 @@ class Dashboard extends Component {
     return (
       <DashboardLayout title="Dashboard">
         <div className={classes.root}>
-          <Grid
+          <Story className={classes.item} />
+          
+
+<Grid
             container
             spacing={4}
           >
