@@ -22,6 +22,7 @@ import {
   DevicesChart,
   ProductList,
   Story,
+  Foto,
   OrdersTable
 } from './components';
 
@@ -42,6 +43,9 @@ class Dashboard extends Component {
     return (
       <DashboardLayout title="Dashboard">
         <div className={classes.root}>
+
+<Foto className={classes.item} />
+          
           <Story className={classes.item} />
           
 
