@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import Paper from '@material-ui/core/Paper';
+import Tabs from '@material-ui/core/Tabs';
+import Tab from '@material-ui/core/Tab';
+
 
 // Externals
 import PropTypes from 'prop-types';
@@ -46,6 +50,22 @@ class Dashboard extends Component {
           
 
         <div className={classes.root}>
+
+<Paper square>
+      <Tabs
+        value={value}
+        indicatorColor="primary"
+        textColor="primary"
+        onChange={handleChange}
+        aria-label="disabled tabs example"
+      >
+        <Tab label="Home" />
+        <Tab label="Makanan" />
+        <Tab label="Minuman" />
+<Tab label="Kantor" />
+      <
+      </Tabs>
+    </Paper>
 
 
           <Story className={classes.item} />
