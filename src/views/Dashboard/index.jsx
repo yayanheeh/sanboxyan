@@ -42,10 +42,12 @@ class Dashboard extends Component {
 
     return (
       <DashboardLayout title="Dashboard">
-        <div className={classes.root}>
-
 <Foto className={classes.item} />
           
+
+        <div className={classes.root}>
+
+
           <Story className={classes.item} />
           
 
