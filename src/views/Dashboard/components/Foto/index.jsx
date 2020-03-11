@@ -23,15 +23,15 @@ class Foto extends Component {
 
             <Carousel>
                 <div>
-                    <img src="assets/1.jpeg" />
+                    <img src="https://cdn.pixabay.com/photo/2020/03/08/22/50/laughing-kookaburra-4913972_1280.jpg" />
                     <p className="legend">Legend 1</p>
                 </div>
                 <div>
-                    <img src="assets/2.jpeg" />
+                    <img src="https://cdn.pixabay.com/photo/2020/03/08/22/50/laughing-kookaburra-4913972_1280.jpg" />
                     <p className="legend">Legend 2</p>
                 </div>
                 <div>
-                    <img src="assets/3.jpeg" />
+                    <img src="https://cdn.pixabay.com/photo/2020/03/08/22/50/laughing-kookaburra-4913972_1280.jpg" />
                     <p className="legend">Legend 3</p>
                 </div>
             </Carousel>
