@@ -31,8 +31,7 @@ class Foto extends Component {
     const { classes } = this.props;
 
     return (
-      <DashboardLayout title="Icons">
-        <div className={classes.root}>
+      
        
        
         
@@ -54,8 +53,7 @@ class Foto extends Component {
           
           
          
-        </div>
-      </DashboardLayout>
+        
     );
   }
 }
