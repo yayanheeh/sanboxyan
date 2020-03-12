@@ -50,9 +50,9 @@ class Dashboard extends Component {
           
 <Foto className={classes.item} />
 
-   <div position="sticky">  <Status className={classes.item} />
+    <Status className={classes.item} />
         
-</div>
+
         <div className={classes.root}>
 
 
