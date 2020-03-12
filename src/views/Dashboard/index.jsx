@@ -53,7 +53,7 @@ class Dashboard extends Component {
 
 <Foto className={classes.item} />
 
-  <AppBar position="sticky"> <Status className={classes.item} />
+  <AppBar style={{ background: '#fff' }} position="sticky"> <Status className={classes.item} />
       </AppBar>  
 
         <div className={classes.root}>
