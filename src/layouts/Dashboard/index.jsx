@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from 'react';
+import Hidden from '@material-ui/core/Hidden';
 
 // Externals
 import classNames from 'classnames';
@@ -71,7 +72,9 @@ class Dashboard extends Component {
           })}
         >
           {children}
-          <Footer />
+         <Hidden smDown> <Footer /></Hidden>
+      <Hidden smUp> <Isor /></Hidden>
+
         </main>
       </Fragment>
     );
