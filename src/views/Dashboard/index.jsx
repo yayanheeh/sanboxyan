@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import './App.css';
 
 // Externals
 import PropTypes from 'prop-types';
@@ -46,8 +46,13 @@ class Dashboard extends Component {
     return (
       <DashboardLayout title="Dashboard">
 
+<div className="sticky">
+
+
 <Tabheader className={classes.item} />
           
+</div>
+
 <Foto className={classes.item} />
 
     <Status className={classes.item} />
