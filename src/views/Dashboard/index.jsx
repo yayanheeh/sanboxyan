@@ -55,7 +55,12 @@ class Dashboard extends Component {
 
 
           <Story className={classes.item} />
-          
+   
+
+  <Image 
+    source={require('https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Bachalpsee_reflection.jpg/300px-Bachalpsee_reflection.jpg')}  
+    style={{width: 100, height: 100, borderRadius: 100/ 2}} 
+/>     
 
 <Grid
             container
