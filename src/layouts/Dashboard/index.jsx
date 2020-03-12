@@ -13,7 +13,7 @@ import { withStyles, withWidth } from '@material-ui/core';
 import { Drawer } from '@material-ui/core';
 
 // Custom components
-import { Sidebar, Topbar, Footer } from './components';
+import { Sidebar, Topbar, Isor, Footer } from './components';
 
 // Component styles
 import styles from './styles';
