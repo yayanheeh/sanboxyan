@@ -25,6 +25,7 @@ import {
   Story,
   Foto,
   Tabheader,
+ Status,
   OrdersTable
 } from './components';
 
@@ -56,7 +57,8 @@ class Dashboard extends Component {
 
           <Story className={classes.item} />
    
-
+<Status className={classes.item} />
+   
   
 
 <Grid
