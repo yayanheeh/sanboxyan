@@ -9,7 +9,7 @@ import TableRow from '@material-ui/core/TableRow';
 import Badge from '@material-ui/core/Badge';
 import Avatar from '@material-ui/core/Avatar';
 import { makeStyles, withStyles } from '@material-ui/core/styles';
-import './App.css';
+
 const StyledBadge = withStyles(theme => ({
   badge: {
     backgroundColor: '#44b700',
@@ -62,7 +62,6 @@ export default function BadgeAvatars() {
   return (
     <div className={classes.root}>
 
-<div className="sticky">
         
 
 <table width="100%" border="0 "><tr><td width="25%" bgcolor="red" align="left">Story</td>
@@ -118,6 +117,6 @@ export default function BadgeAvatars() {
 
 </div>
       
-    </div>
+  
   );
 }
