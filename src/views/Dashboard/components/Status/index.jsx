@@ -1,6 +1,11 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
-
+import Table from '@material-ui/core/Table';
+import TableBody from '@material-ui/core/TableBody';
+import TableCell from '@material-ui/core/TableCell';
+import TableContainer from '@material-ui/core/TableContainer';
+import TableHead from '@material-ui/core/TableHead';
+import TableRow from '@material-ui/core/TableRow';
 
 import Badge from '@material-ui/core/Badge';
 import Avatar from '@material-ui/core/Avatar';
@@ -58,7 +63,9 @@ export default function BadgeAvatars() {
   return (
     <div className={classes.root}>
 
-<StyledBadge
+<table width="100%" border="0 "><tr><td width="25%" bgcolor="red" align="left">Story</td>
+
+<td width="50%" bgcolor="" align="left"><StyledBadge
         overlap="circle"
         anchorOrigin={{
           vertical: 'bottom',
@@ -72,7 +79,9 @@ export default function BadgeAvatars() {
         <Avatar alt="Remy Sharp" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Bachalpsee_reflection.jpg/300px-Bachalpsee_reflection.jpg" />
       </Link>
 
-</StyledBadge>
+</StyledBadge></td></tr></table>
+
+
       
     </div>
   );
