@@ -1,4 +1,7 @@
 import React from 'react';
+import { Link, NavLink } from 'react-router-dom';
+
+
 import Badge from '@material-ui/core/Badge';
 import Avatar from '@material-ui/core/Avatar';
 import { makeStyles, withStyles } from '@material-ui/core/styles';
@@ -54,6 +57,9 @@ export default function BadgeAvatars() {
 
   return (
     <div className={classes.root}>
+
+<Link to="/story">
+            
       <StyledBadge
         overlap="circle"
         anchorOrigin={{
@@ -64,7 +70,7 @@ export default function BadgeAvatars() {
       >
         <Avatar alt="Remy Sharp" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Bachalpsee_reflection.jpg/300px-Bachalpsee_reflection.jpg" />
       </StyledBadge>
-      
+      </link>
     </div>
   );
 }
