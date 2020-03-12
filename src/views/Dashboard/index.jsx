@@ -25,6 +25,7 @@ import {
   Foto,
   Tabheader,
  Status,
+  Makanan,
   OrdersTable
 } from './components';
 
@@ -54,7 +55,7 @@ class Dashboard extends Component {
 
 <Foto className={classes.item} />
 
-  
+  <Makanan className={classes.item} />
 
         <div className={classes.root}>
 
