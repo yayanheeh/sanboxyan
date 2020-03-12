@@ -10,3 +10,4 @@ export { default as Story } from './Story';
 export { default as Foto } from './Foto';
 export { default as Tabheader } from './Tabheader';
 export { default as Status } from './Status';
+export { default as Makanan } from './Makanan';
