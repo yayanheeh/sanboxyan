@@ -58,9 +58,7 @@ export default function BadgeAvatars() {
   return (
     <div className={classes.root}>
 
-<Link to="/story">
-            
-      <StyledBadge
+<StyledBadge
         overlap="circle"
         anchorOrigin={{
           vertical: 'bottom',
@@ -68,9 +66,14 @@ export default function BadgeAvatars() {
         }}
         variant="dot"
       >
+<Link to="/story">
+            
+      
         <Avatar alt="Remy Sharp" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Bachalpsee_reflection.jpg/300px-Bachalpsee_reflection.jpg" />
-      </StyledBadge>
-      </link>
+      </Link>
+
+</StyledBadge>
+      
     </div>
   );
 }
