@@ -65,8 +65,7 @@ export default function BadgeAvatars() {
         
 
 <table width="100%" border="0 "><tr><td width="25%" bgcolor="" align="left">
-<img src="https://logos.textgiraffe.com/logos/logo-name/17593883-designstyle-chess-m.png" alt="Smiley face" height="25" width="100"/>
-</td>
+𝐒𝐭𝐨𝐫𝐲</td>
 
 <td width="25%" bgcolor="" align="left"><StyledBadge
         overlap="circle"
