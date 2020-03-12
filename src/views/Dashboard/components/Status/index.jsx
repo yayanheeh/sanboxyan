@@ -64,7 +64,7 @@ export default function BadgeAvatars() {
 
 <table width="100%" border="0 "><tr><td width="25%" bgcolor="red" align="left">Story</td>
 
-<td width="50%" bgcolor="" align="left"><StyledBadge
+<td width="25%" bgcolor="" align="left"><StyledBadge
         overlap="circle"
         anchorOrigin={{
           vertical: 'bottom',
@@ -78,7 +78,40 @@ export default function BadgeAvatars() {
         <Avatar alt="Remy Sharp" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Bachalpsee_reflection.jpg/300px-Bachalpsee_reflection.jpg" />
       </Link>
 
-</StyledBadge></td></tr></table>
+</StyledBadge></td>
+<td width="25%" bgcolor="" align="left"><StyledBadge
+        overlap="circle"
+        anchorOrigin={{
+          vertical: 'bottom',
+          horizontal: 'right',
+        }}
+        variant="dot"
+      >
+<Link to="/story">
+            
+      
+        <Avatar alt="Remy Sharp" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Bachalpsee_reflection.jpg/300px-Bachalpsee_reflection.jpg" />
+      </Link>
+
+</StyledBadge></td>
+
+<td width="25%" bgcolor="" align="left"><StyledBadge
+        overlap="circle"
+        anchorOrigin={{
+          vertical: 'bottom',
+          horizontal: 'right',
+        }}
+        variant="dot"
+      >
+<Link to="/story">
+            
+      
+        <Avatar alt="Remy Sharp" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Bachalpsee_reflection.jpg/300px-Bachalpsee_reflection.jpg" />
+      </Link>
+
+</StyledBadge></td>
+
+</tr></table>
 
 
       
