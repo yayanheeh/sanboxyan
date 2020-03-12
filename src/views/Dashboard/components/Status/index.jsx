@@ -64,8 +64,8 @@ export default function BadgeAvatars() {
 
         
 
-<table width="100%" border="0 "><tr><td width="25%" bgcolor="" align="left">
-𝐒𝐭𝐨𝐫𝐲</td>
+<table width="100%" border="0 "><tr><td width="25%" bgcolor="" align="left"><font color="black">
+𝐒𝐭𝐨𝐫𝐲</font></td>
 
 <td width="25%" bgcolor="" align="left"><StyledBadge
         overlap="circle"
