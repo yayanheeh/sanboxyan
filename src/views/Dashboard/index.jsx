@@ -49,16 +49,16 @@ class Dashboard extends Component {
 <Tabheader className={classes.item} />
           
 <Foto className={classes.item} />
-          
+
+     <Status className={classes.item} />
+        
 
         <div className={classes.root}>
 
 
 
-          <Story className={classes.item} />
-   
-<Status className={classes.item} />
-   
+          
+
   
 
 <Grid
