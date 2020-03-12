@@ -32,11 +32,11 @@ export default function SimpleBottomNavigation() {
   const [value, setValue] = React.useState(0);
 
   return (  <Hidden smUp> 
-<BottomNavigation title="My Bottom" style={{ backgroundColor: '#577746' }} 
+<BottomNavigation title="My Bottom" style={{ backgroundColor: '#fff' }} 
 className={classes.stickToBottom}
 >
 <br/><br/>
-    <BottomNavigation title="My Bottom" style={{ backgroundColor: '#577746' }} 
+    <BottomNavigation title="My Bottom" style={{ backgroundColor: '#fff' }} 
 
       value={value}
       onChange={(event, newValue) => {
