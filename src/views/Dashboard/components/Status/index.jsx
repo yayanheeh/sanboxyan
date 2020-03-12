@@ -82,7 +82,7 @@ export default function BadgeAvatars() {
       </Link>
 
 </StyledBadge></td>
-<td width="25%" bgcolor="" align="left"><StyledBadge
+<td width="25%" bgcolor="" align="center"><StyledBadge
         overlap="circle"
         anchorOrigin={{
           vertical: 'bottom',
