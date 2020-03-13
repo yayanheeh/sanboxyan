@@ -10,10 +10,10 @@ const Seo = props => {
   const postCover = data ? (data.edges[0].node || {}).cover : "";
   const postSlug = data ? (data.edges[0].node || {}).slug : "";
 
-  const title = postTitle !== "" ? `${postTitle} - ${config.shortSiteTitle}` : config.siteTitle;
-  const description = postDescription !== "" ? postDescription : config.siteDescription;
-  const image = postCover !== "" ? postCover.resolutions.src : config.siteImage;
-  const url = config.siteUrl + config.pathPrefix + "/" + postSlug;
+  const title = postTitle !== "" ? `${postTitle} - ${shortSiteTitle}` : siteTitle;
+  const description = postDescription !== "" ? postDescription : siteDescription;
+  const image = postCover !== "" ? postCover.resolutions.src : siteImage;
+  const url = siteUrl + pathPrefix + "/" + postSlug;
 
   return (
     <Helmet>
@@ -34,7 +34,7 @@ const Seo = props => {
       <meta name="twitter:card" content="summary" />
       <meta
         name="twitter:creator"
-        content={authorTwitterAccount ? config.authorTwitterAccount : ""}
+        content={authorTwitterAccount ? authorTwitterAccount : ""}
       />
     </Helmet>
   );
