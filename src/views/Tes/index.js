@@ -4,7 +4,7 @@ import Stories from 'react-insta-stories'
 import {Helmet} from 'react-helmet'
 
 // Custom components
-import {Seo} from './components';
+import {Seo} from './components/Seo.js';
 class App extends React.Component {
   constructor() {
     super()
