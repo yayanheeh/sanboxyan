@@ -64,10 +64,10 @@ export default function BadgeAvatars() {
 
         
 
-<table width="100%" border="0 "><tr><td width="25%" bgcolor="" align="left"><font color="black">
+<table width="100%" border="0 "><tr><td width="20%" bgcolor="" align="center"><font color="black">
 𝐒𝐭𝐨𝐫𝐲</font></td>
 
-<td width="25%" bgcolor="" align="left"><StyledBadge
+<td width="15%" bgcolor="" align="left"><StyledBadge
         overlap="circle"
         anchorOrigin={{
           vertical: 'bottom',
@@ -82,7 +82,7 @@ export default function BadgeAvatars() {
       </Link>
 
 </StyledBadge></td>
-<td width="25%" bgcolor="" align="center"><StyledBadge
+<td width="15%" bgcolor="" align="left"><StyledBadge
         overlap="circle"
         anchorOrigin={{
           vertical: 'bottom',
@@ -98,7 +98,7 @@ export default function BadgeAvatars() {
 
 </StyledBadge></td>
 
-<td width="25%" bgcolor="" align="left"><StyledBadge
+<td width="15%" bgcolor="" align="left"><StyledBadge
         overlap="circle"
         anchorOrigin={{
           vertical: 'bottom',
