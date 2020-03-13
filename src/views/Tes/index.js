@@ -3,10 +3,7 @@ import './App.css';
 import Stories from 'react-insta-stories'
 import {Helmet} from 'react-helmet'
 
-<Helmet>
-    <title>Yan Here's the Title!</title>
-    <meta name="description" content="This is what you want to show as the page content in the Google SERP Listing" />
-  </Helmet>
+
 
 class App extends React.Component {
   constructor() {
@@ -23,6 +20,12 @@ class App extends React.Component {
     return (
       
       <div className="App">
+<Helmet>
+      <title>Yan My App</title>
+      <meta charSet="utf-8" />
+      <meta name="description" content="A React.js application" />
+    </Helmet>
+
         <div className="left">
           <h2><code><a rel="noopener noreferrer" href="https://www.npmjs.com/package/react-insta-stories" target="_blank">react-insta-stories [v2]</a></code></h2>
           <p>Create Instagram like stories on the web using React</p>
