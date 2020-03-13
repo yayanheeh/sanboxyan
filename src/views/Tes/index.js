@@ -3,8 +3,8 @@ import './App.css';
 import Stories from 'react-insta-stories'
 import {Helmet} from 'react-helmet'
 
-
-
+// Custom components
+import {Seo} from './components';
 class App extends React.Component {
   constructor() {
     super()
@@ -20,11 +20,7 @@ class App extends React.Component {
     return (
       
       <div className="App">
-<Helmet>
-      <title>Yan My App</title>
-      <meta charSet="utf-8" />
-      <meta name="description" content="A React.js application" />
-    </Helmet>
+<seo />
 
         <div className="left">
           <h2><code><a rel="noopener noreferrer" href="https://www.npmjs.com/package/react-insta-stories" target="_blank">react-insta-stories [v2]</a></code></h2>
