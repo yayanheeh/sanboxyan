@@ -20,7 +20,13 @@ class App extends React.Component {
     return (
       
       <div className="App">
-<seo />
+
+ <Helmet>
+                <meta charSet="utf-8" />
+                <title>Yan My Title</title>
+                 <meta name="description" content="Yayan He'eh Helmet application" />
+    
+                </Helmet>
 
         <div className="left">
           <h2><code><a rel="noopener noreferrer" href="https://www.npmjs.com/package/react-insta-stories" target="_blank">react-insta-stories [v2]</a></code></h2>
