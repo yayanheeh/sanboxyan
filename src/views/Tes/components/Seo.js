@@ -34,7 +34,7 @@ const Seo = props => {
       <meta name="twitter:card" content="summary" />
       <meta
         name="twitter:creator"
-        content={config.authorTwitterAccount ? config.authorTwitterAccount : ""}
+        content={authorTwitterAccount ? config.authorTwitterAccount : ""}
       />
     </Helmet>
   );
