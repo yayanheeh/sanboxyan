@@ -13,7 +13,7 @@ import SignUp from './views/SignUp';
 import SignIn from './views/SignIn';
 import Tes from './views/Tes';
 import Story from './views/Story';
-
+import Makanan from './views/Makanan';
 import UnderDevelopment from './views/UnderDevelopment';
 import NotFound from './views/NotFound';
 
@@ -80,6 +80,12 @@ export default class Routes extends Component {
           component={Story}
           exact
           path="/story"
+        />
+        
+        <Route
+          component={Makanan}
+          exact
+          path="/makanan"
         />
         <Route
           component={UnderDevelopment}
