@@ -3,6 +3,11 @@ import './App.css';
 import Stories from 'react-insta-stories'
 import {Helmet} from 'react-helmet'
 
+<Helmet>
+    <title>Yan Here's the Title!</title>
+    <meta name="description" content="This is what you want to show as the page content in the Google SERP Listing" />
+  </Helmet>
+
 class App extends React.Component {
   constructor() {
     super()
@@ -16,10 +21,7 @@ class App extends React.Component {
   }
   render() {
     return (
-      <Helmet>
-    <title>Here's the Title!</title>
-    <meta name="description" content="This is what you want to show as the page content in the Google SERP Listing" />
-  </Helmet>
+      
       <div className="App">
         <div className="left">
           <h2><code><a rel="noopener noreferrer" href="https://www.npmjs.com/package/react-insta-stories" target="_blank">react-insta-stories [v2]</a></code></h2>
